@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <metacharset="uft-8">
+    <meta charset="uft-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title> Formulário Resilia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+    <style>
+
+.container{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.top-menu{
+    border-radius: 7px;
+    border: 1px solid;
+    padding: 4px;
+    background-color: yellow;
+    box-shadow: 12px 6.25px #FF9300;
+
+
+}
+ .bottom{
+     border-radius: 7px;
+     border: 1px solid;
+     padding: 3px;
+    background-color: #ffd000;
+    box-shadow: 12px 6.25px #FF9300;
+ }
+
+
+        .titulo{
+            font-size: 40px;
+            text-decoration: underline;
+            text-align: center;
+            background-image: linear-gradient(to bottom, yellow, yellow, yellow, #ffd000,#ffd000, #ffab02);
+            background-clip: text;
+            -webkit-text-stroke-width: 1px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            
+
+        }
+        body{
+            background-image: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-de-meio-tom-ondulado-amarelo-e-preto_53876-67540.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }   
+ 
+        .estilo1{
+        border: 1px solid;
+        width: 220px;
+        height: 320px;
+        padding: 6px;
+        background-image: linear-gradient( to bottom, yellow, #ffab02, #ffd000);
+        padding-bottom: 40px;
+        border-radius: 10%;
+        box-shadow: 3px -3px 20px 15px #ffd000;
+        position: absolute;
+        top: 150px;
+        left:75%;
+        
+        }
+        .button{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="estilo">
+    <div class="titulo">  
+        <h1> Se torne um Resiliente</h1> </div>
+   
+
+    <div class="container">
+        <br><br>
+        <div class="top-menu">
+            Você já pensou em ter a oportunidade de entrar em umas das melhores escolas de tecnologia do mercado?!?!
+        </div>
+        <br><br>
+        <div class="bottom">
+            Então Mande seus dados e vamos entrar em contato, com todos os detalhes para uma futura carreira
+        </div>
+        </div>
+        
+    </div>
+
+    <form class="estilo1">
+    <h3>Digite o Nome Completo</h3>
+        <label>Nome</label>
+		<input type="text" name="nome" />
+        <br><br>
+    <h3>Selecione a Data</h3>
+        <label>Data</label>
+        <form name="nascimento">
+        <input type="date" name="nascimento" />
+        <br><br>
+    <h3>Digite seu CPF:</h3>
+        <label>CPF</label>
+	    <form name="cadastro">
+		<input type="text" name="cpf"/>
+        <br><br>
+       <div class="button"> <button type="submit">Enviar</button> </div>
+
+  
+
+
+	</form>
+
+</body>
